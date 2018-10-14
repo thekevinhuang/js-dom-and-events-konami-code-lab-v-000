@@ -5,6 +5,7 @@ function init() {
   let index = 0
 
   function onKeyDownHandler(e){
+    console.log (e.detail)
     let dKey = parseInt(e.detail || e.which)
     if(dKey === code[index]){
       index++
